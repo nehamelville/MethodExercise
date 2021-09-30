@@ -18,11 +18,21 @@ namespace MethodExercise1
                         break;
 
                     case "2":
+
+                        Console.WriteLine("Methods for Add & Multiply\n-------------------------------------");
+                 
                         int sum = Sum(10, 20);
                         Console.WriteLine($"\nSum of 10 and 20 is {sum} ");
                         
                         int multiply = Multiply(10, 20);
                         Console.WriteLine($"\nMultiplication of 10 and 20 is {multiply}");
+
+                        int subtract = Subtract(20, 10);
+                        Console.WriteLine($"\nDifference of 10 and 20 is {subtract} ");
+
+                        int divide = Divide(20,10);
+                        Console.WriteLine($"\nDivision of 20 and 10 is {divide}");
+
                         break;
 
                     case "3":
@@ -64,16 +74,27 @@ namespace MethodExercise1
             }
         }
         public static int Sum(int x, int y)
-            {
+        {
                 int sum = x + y;
                 return sum;
-            }
+        }
+        public static int Subtract(int x, int y)
+        {
+            int difference= x - y;
+            return difference;
+        }
+
+        public static int Divide(int x, int y)
+        {
+            int divide = x/ y;
+            return divide;
+        }
 
         public static int Multiply(int x,int y)
-            {
+        {
             int multiply = x * y;
             return multiply;
-            }
+        }
 
         
     }

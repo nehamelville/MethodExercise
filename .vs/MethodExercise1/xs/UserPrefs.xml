@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{646A6D62-D4E4-4176-A8CE-D6B5BA343803}|Default">
-  <MonoDevelop.Ide.ItemProperties.MethodExercise1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MethodExercise1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MethodExercise1/Program.cs">
     <Files>
-      <File FileName="MethodExercise1/Program.cs" Line="1" Column="1" />
+      <File FileName="MethodExercise1/Program.cs" Line="25" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
