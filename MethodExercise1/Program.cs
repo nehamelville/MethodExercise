@@ -19,7 +19,7 @@ namespace MethodExercise1
 
                     case "2":
 
-                        Console.WriteLine("Methods for Add & Multiply\n-------------------------------------");
+                        Console.WriteLine("\nMethods for Addition, Multiplication,Subtraction & Division \n-------------------------------------");
                  
                         int sum = Sum(10, 20);
                         Console.WriteLine($"\nSum of 10 and 20 is {sum} ");
@@ -36,8 +36,7 @@ namespace MethodExercise1
                         break;
 
                     case "3":
-                        Console.WriteLine("\n" +
-                            "You have exited the program!!");
+                        Console.WriteLine("\nYou have exited the program!!");
                         return;
                             
                     default:
